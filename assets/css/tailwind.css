@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    @apply bg-red-50;
+}
+
+@layer components {
+    .btn{
+        @apply bg-[#12b488] text-white px-8 py-3 rounded-sm 
+    }
+    
+    
+}
+@layer base {
+    .bg-blue{
+        @apply bg-[#092732]
+    }
+}
